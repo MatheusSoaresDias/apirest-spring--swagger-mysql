@@ -10,12 +10,14 @@ import javax.persistence.Table;
 
 import lombok.Data;
 
+/*Edição para testar git clone*/
+
 /* @Data is a convenient shortcut annotation that 
  * bundles the features of @ToString, @EqualsAndHashCode, 
  * @Getter / @Setter and @RequiredArgsConstructor together */
 @Data
 @Entity
-@Table(name="pessoa")
+@Table(name="pessoa)
 public class Pessoa implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
